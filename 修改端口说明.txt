@@ -1,3 +1,11 @@
+注意：该版本与宝塔面板冲突，只能择一安装。
+安装：
+sudo -i 
+yum install wget -y 
+wget https://raw.githubusercontent.com/smithmuch/ocserv/master/install_script.sh 
+chmod +x install_script.sh 
+./install_script.sh
+
 重启后：
 sudo -i
 cd /root/anyconnect/
@@ -9,5 +17,5 @@ cd /root/anyconnect/
 
 
 
-1.修改配置文件的4433端口为55789（已经修改）；
+1.修改配置文件的4433端口为55789；
 2.修改/etc/rc.local中的4433端口为55789
